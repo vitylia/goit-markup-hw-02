@@ -1,19 +1,17 @@
 :root {
-    --title-color: #2e2f42;
-    --main-text-color: #434455;
-    --hero-color: #ffffff;
-    --main-brand-color: #4d5ae5;
+    --main-color: #2e2f42;
+    --special-color: #4d5ae5;
+    --second-color: #434455;
+    --white-color: #ffffff;
     --footer-color: #f4f4fd;
-    --menu-active-color: #404bbf;
-    --main-font-size: 20px;
+    --hover-focus-color: #404bbf;
   }
-
-body{
-    color: #434455;
+  
+  body {
+    font-family: "Roboto", sans-serif;
+    color: var(--second-color);
     background-color: #FFFFFF;
-    font-family: 'Roboto', sans-serif;
-    font-size: 16px;
-}
+  }
 
 /*header*/
 
